@@ -1,0 +1,6 @@
+<svelte:head>
+  <title>{post.title}</title>
+  <meta name="description" content={post.excerpt} />
+</svelte:head>
+
+//Update the <svelte:head> tag for each blog post
