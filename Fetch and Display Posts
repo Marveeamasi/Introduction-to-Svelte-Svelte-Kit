@@ -1,0 +1,6 @@
+export async function load({ params }) {
+  const res = await fetch(`https://api.example.com/posts/${params.slug}`);
+  return { post: await res.json() };
+}
+
+// To Fetch posts from a CMS or database using the load function
